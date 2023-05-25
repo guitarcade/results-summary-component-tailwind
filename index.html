@@ -7,7 +7,24 @@
   <title>Frontend Mentor | Results summary component</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1 class="text-xl font-black">Hello World</h1>
+<body class="sm:grid place-content-center min-h-screen">
+  <main>
+    <div class="max-w-2xl sm:shadow-lg sm:mx-4 sm:grid sm:grid-cols-2">
+
+      <div class="grid content-start items-center justify-center text-center gap-4 text-light-lavender result p-8 bg-gradient-to-b from-light-slate-blue to-light-royal-blue rounded-b-3xl sm:rounded-3xl">
+        <h1>Your Result</h1>
+
+        <p class="w-32 mx-auto aspect-square bg-gradient-to-b from-violet-blue to-persian-blue rounded-full grid place-content-center">
+          <span class="text-5xl text-white font-bold">76</span> <span class="opacity-70">of 100</span>
+        </p>
+
+        <h2>Great</h2>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+
+      <div class="summary">
+      </div>
+    </div>
+  </main>
 </body>
 </html>

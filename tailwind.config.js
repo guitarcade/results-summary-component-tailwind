@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['HankenGrotesk', 'sans-serif'],
+        sans  : ['HankenGrotesk', 'sans-serif'],
       },
     },
   },

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "npx tailwindcss -o style.css --minify"
+    "build": "npx tailwindcss -o public/style.css --minify && cp index.html public/"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.2"

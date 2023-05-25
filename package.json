@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "npx tailwindcss -o style.css --minify"
+  },
   "devDependencies": {
     "tailwindcss": "^3.3.2"
   }
